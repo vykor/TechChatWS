@@ -32,9 +32,12 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-mongodb")
     compile("org.springframework.boot:spring-boot-starter-data-rest")
 	compile("org.springframework.boot:spring-boot-starter-actuator")
-	compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")	
+	//compile("org.springframework.boot:spring-boot-starter-security")
 	compile("org.slf4j:jcl-over-slf4j")
 	compile("org.slf4j:slf4j-api")
+    compile("org.webjars:bootstrap:3.3.1")
+    compile("org.webjars:jquery:2.1.3")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 

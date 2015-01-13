@@ -7,7 +7,8 @@ import org.springframework.context.annotation.Import;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
 
-@ComponentScan(basePackages = "TechChatWS")
+//@ComponentScan(basePackages = "TechChatWS")
+@ComponentScan(basePackages = {"TechChatWS", "TechChat"})
 @EnableMongoRepositories
 @Import(RepositoryRestMvcConfiguration.class)
 @EnableAutoConfiguration
