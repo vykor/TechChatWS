@@ -1,5 +1,7 @@
 *.class
 .classpath
+.project
+.springBeans
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -17,3 +19,4 @@ build/
 lib/
 gradle/
 .gradle/
+.settings/
